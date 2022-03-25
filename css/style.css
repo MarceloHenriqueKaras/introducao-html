@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 body{
-    background-color: #202020;
+    background-color: #19161b;
     color: aliceblue;
     font-family:'PT Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: smaller;
@@ -15,8 +15,16 @@ p{
     text-indent: 30px;
 }
 
-#meio{
+#meio{ /*para chamar id, usar #id*/
     text-align: center;
+    background-color:aliceblue;
+    border
+    border-style: outset;
+    border-width: 8px;
+}
+
+.texto1{ /*para chamar classe, usar .nomedaclasse */
+    color: aliceblue;
 }
 
 a{
