@@ -1,19 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 body{
-    display: flex;
     justify-content: center;
     min-height: 100vh;
     background-color: #19161b;
-}
-
-.title{
-    color: aliceblue;
-    font-family:'PT Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: smaller;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
 }
 
 .instagram{
@@ -26,4 +16,67 @@ body{
     background: radial-gradient(circle at 30% 110%, #ffdb8b 0%, #ee653d 25%, 
     #d42e81 50%, #a237b6 75%, #3e5fbc 100%);
     box-shadow: 0 15px 40px 1px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    font-size: large;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+}
+
+#nome{
+    font-family: 'PT Sans';
+}
+
+footer{
+    color: aliceblue;
+    position: relative;
+    margin-bottom:0px;
+}
+
+span{
+    display: block;
+    border: 15px solid aliceblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+span::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 15px solid aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: aliceblue;
+    top: 16px;
+    right: 16px;
 }
