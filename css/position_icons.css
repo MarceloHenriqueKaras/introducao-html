@@ -1,0 +1,21 @@
+body{
+    background-color: #19161b;
+    margin: 0px;
+}
+
+.input-container{
+    position: relative;
+    margin: 100px;
+}
+
+input{
+    height: 45px;
+    width: 300px;
+    padding-left: 40px;
+}
+
+svg{
+    position: absolute;
+    left: 5px;
+    top: calc(50% - 12px);
+}
