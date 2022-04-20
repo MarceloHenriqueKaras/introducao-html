@@ -53,6 +53,13 @@ form .input-container input{
     font-size: 1rem;
 }
 
+hr{
+    border: 1px solid #818181;
+    border-radius: 2px;
+    color: #818181;
+}
+
+
 svg {
     position: absolute;
     right: 20px;
@@ -75,4 +82,47 @@ a{
     text-align: right;
     color: red;
     text-decoration: none;
+}
+
+form p{
+    color: #818181;
+    text-align: center;
+}
+
+form .social-media-container{
+    margin: 20px auto;
+    width: fit-content;
+}
+
+form .social-media-container .icon-container{
+    background: #375c98;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+form .social-media-container .icon-container:nth-child(1){
+    background: #3355c5;
+}
+
+form .social-media-container .icon-container:nth-child(2){
+    background: #c53333;
+}
+
+form .social-media-container .icon-container:nth-child(3){
+    background: #3383c5;
+}
+
+form .social-media-container .icon-container svg{
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    color: aliceblue;
+}
+
+.footer{
+    width: fit-content;
+    margin: 20px auto;
 }
